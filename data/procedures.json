@@ -1,0 +1,803 @@
+[
+  {
+    "date": "2026-11-24",
+    "time": "11:15",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-11-25",
+    "time": "08:30",
+    "name": "Vizita",
+    "place": "na pokoji",
+    "staff": "",
+    "type": "vizita",
+    "note": ""
+  },
+  {
+    "date": "2026-11-25",
+    "time": "09:15",
+    "name": "Bazén Vertebro",
+    "place": "Bazén LARA",
+    "staff": "",
+    "type": "bazen",
+    "note": ""
+  },
+  {
+    "date": "2026-11-25",
+    "time": "11:00",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-11-25",
+    "time": "11:30",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-11-26",
+    "time": "10:30",
+    "name": "Skup. cvičení vertebro",
+    "place": "Polárka",
+    "staff": "Mgr. Vardanyan Zaruhi",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-11-26",
+    "time": "12:30",
+    "name": "Treadmill",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-11-26",
+    "time": "12:45",
+    "name": "Balanční chodník",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "chodnik",
+    "note": ""
+  },
+  {
+    "date": "2026-11-26",
+    "time": "13:30",
+    "name": "Polarium (kriokomora −120 °C)",
+    "place": "Polárka",
+    "staff": "",
+    "type": "krio",
+    "note": "Okno 13:30–15:00"
+  },
+  {
+    "date": "2026-11-27",
+    "time": "07:00",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-11-27",
+    "time": "08:45",
+    "name": "Posturomed",
+    "place": "Budova Lázně",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-11-27",
+    "time": "10:30",
+    "name": "Fyzioterapie",
+    "place": "Polárka",
+    "staff": "Mgr. Biolková, Bc. Vojvodíková",
+    "type": "fyzio",
+    "note": ""
+  },
+  {
+    "date": "2026-11-27",
+    "time": "13:30",
+    "name": "Polarium (kriokomora −120 °C)",
+    "place": "Polárka",
+    "staff": "",
+    "type": "krio",
+    "note": "Okno 13:30–15:00"
+  },
+  {
+    "date": "2026-11-28",
+    "time": "07:30",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-11-30",
+    "time": "07:00",
+    "name": "Teplý zábal",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "zabal",
+    "note": ""
+  },
+  {
+    "date": "2026-11-30",
+    "time": "09:15",
+    "name": "Posturomed",
+    "place": "Budova Lázně",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-11-30",
+    "time": "10:00",
+    "name": "Bazén Vertebro",
+    "place": "Bazén LARA",
+    "staff": "",
+    "type": "bazen",
+    "note": ""
+  },
+  {
+    "date": "2026-11-30",
+    "time": "13:00",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-11-30",
+    "time": "13:30",
+    "name": "Polarium (kriokomora −120 °C)",
+    "place": "Polárka",
+    "staff": "",
+    "type": "krio",
+    "note": "Okno 13:30–15:00"
+  },
+  {
+    "date": "2026-12-01",
+    "time": "08:00",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-01",
+    "time": "09:30",
+    "name": "Fyzioterapie",
+    "place": "Polárka",
+    "staff": "Mgr. Biolková, Bc. Vojvodíková",
+    "type": "fyzio",
+    "note": ""
+  },
+  {
+    "date": "2026-12-01",
+    "time": "11:00",
+    "name": "Koupel perličková",
+    "place": "Vodoléčba Polárka",
+    "staff": "",
+    "type": "koupel",
+    "note": ""
+  },
+  {
+    "date": "2026-12-01",
+    "time": "14:00",
+    "name": "Treadmill",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-02",
+    "time": "07:00",
+    "name": "Teplý zábal",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "zabal",
+    "note": ""
+  },
+  {
+    "date": "2026-12-02",
+    "time": "07:30",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-02",
+    "time": "09:40",
+    "name": "Vizita",
+    "place": "na pokoji",
+    "staff": "",
+    "type": "vizita",
+    "note": ""
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:30",
+    "name": "Skup. cvičení vertebro",
+    "place": "Polárka",
+    "staff": "Mgr. Vardanyan Zaruhi",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-02",
+    "time": "11:15",
+    "name": "Balanční chodník",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "chodnik",
+    "note": ""
+  },
+  {
+    "date": "2026-12-02",
+    "time": "13:30",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-02",
+    "time": "13:30",
+    "name": "Polarium (kriokomora −120 °C)",
+    "place": "Polárka",
+    "staff": "",
+    "type": "krio",
+    "note": "Okno 13:30–15:00"
+  },
+  {
+    "date": "2026-12-03",
+    "time": "08:45",
+    "name": "Posturomed",
+    "place": "Budova Lázně",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-03",
+    "time": "09:15",
+    "name": "Bazén Vertebro",
+    "place": "Bazén LARA",
+    "staff": "",
+    "type": "bazen",
+    "note": ""
+  },
+  {
+    "date": "2026-12-03",
+    "time": "11:00",
+    "name": "Fyzioterapie",
+    "place": "Polárka",
+    "staff": "Mgr. Biolková, Bc. Vojvodíková",
+    "type": "fyzio",
+    "note": ""
+  },
+  {
+    "date": "2026-12-03",
+    "time": "13:45",
+    "name": "Treadmill",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-04",
+    "time": "08:00",
+    "name": "Koupel perličková",
+    "place": "Vodoléčba Polárka",
+    "staff": "",
+    "type": "koupel",
+    "note": ""
+  },
+  {
+    "date": "2026-12-04",
+    "time": "09:45",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:30",
+    "name": "Skup. cvičení vertebro",
+    "place": "Polárka",
+    "staff": "Mgr. Vardanyan Zaruhi",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-04",
+    "time": "11:15",
+    "name": "Balanční chodník",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "chodnik",
+    "note": ""
+  },
+  {
+    "date": "2026-12-04",
+    "time": "13:30",
+    "name": "Polarium (kriokomora −120 °C)",
+    "place": "Polárka",
+    "staff": "",
+    "type": "krio",
+    "note": "Okno 13:30–15:00"
+  },
+  {
+    "date": "2026-12-05",
+    "time": "09:30",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-07",
+    "time": "08:45",
+    "name": "Posturomed",
+    "place": "Budova Lázně",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-07",
+    "time": "09:15",
+    "name": "Bazén Vertebro",
+    "place": "Bazén LARA",
+    "staff": "",
+    "type": "bazen",
+    "note": ""
+  },
+  {
+    "date": "2026-12-07",
+    "time": "11:00",
+    "name": "Fyzioterapie",
+    "place": "Polárka",
+    "staff": "Mgr. Biolková, Bc. Vojvodíková",
+    "type": "fyzio",
+    "note": ""
+  },
+  {
+    "date": "2026-12-07",
+    "time": "11:45",
+    "name": "Balanční chodník",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "chodnik",
+    "note": ""
+  },
+  {
+    "date": "2026-12-07",
+    "time": "13:30",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-07",
+    "time": "13:30",
+    "name": "Polarium (kriokomora −120 °C)",
+    "place": "Polárka",
+    "staff": "",
+    "type": "krio",
+    "note": "Okno 13:30–15:00"
+  },
+  {
+    "date": "2026-12-08",
+    "time": "08:30",
+    "name": "Fyzioterapie",
+    "place": "Polárka",
+    "staff": "Mgr. Biolková, Bc. Vojvodíková",
+    "type": "fyzio",
+    "note": ""
+  },
+  {
+    "date": "2026-12-08",
+    "time": "09:30",
+    "name": "Koupel perličková",
+    "place": "Vodoléčba Polárka",
+    "staff": "",
+    "type": "koupel",
+    "note": ""
+  },
+  {
+    "date": "2026-12-08",
+    "time": "10:30",
+    "name": "Skup. cvičení vertebro",
+    "place": "Polárka",
+    "staff": "Mgr. Vardanyan Zaruhi",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-08",
+    "time": "13:30",
+    "name": "Treadmill",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-09",
+    "time": "07:30",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-09",
+    "time": "08:00",
+    "name": "Teplý zábal",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "zabal",
+    "note": ""
+  },
+  {
+    "date": "2026-12-09",
+    "time": "08:30",
+    "name": "Vizita",
+    "place": "na pokoji",
+    "staff": "",
+    "type": "vizita",
+    "note": ""
+  },
+  {
+    "date": "2026-12-09",
+    "time": "10:00",
+    "name": "Škola zad",
+    "place": "Budova LARA",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-09",
+    "time": "13:00",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-10",
+    "time": "08:45",
+    "name": "Posturomed",
+    "place": "Budova Lázně",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-10",
+    "time": "09:15",
+    "name": "Bazén Vertebro",
+    "place": "Bazén LARA",
+    "staff": "",
+    "type": "bazen",
+    "note": ""
+  },
+  {
+    "date": "2026-12-10",
+    "time": "11:00",
+    "name": "Fyzioterapie",
+    "place": "Polárka",
+    "staff": "Mgr. Biolková, Bc. Vojvodíková",
+    "type": "fyzio",
+    "note": ""
+  },
+  {
+    "date": "2026-12-10",
+    "time": "13:15",
+    "name": "Balanční chodník",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "chodnik",
+    "note": ""
+  },
+  {
+    "date": "2026-12-11",
+    "time": "08:00",
+    "name": "Koupel perličková",
+    "place": "Vodoléčba Polárka",
+    "staff": "",
+    "type": "koupel",
+    "note": ""
+  },
+  {
+    "date": "2026-12-11",
+    "time": "09:15",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-11",
+    "time": "09:30",
+    "name": "Teplý zábal",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "zabal",
+    "note": ""
+  },
+  {
+    "date": "2026-12-11",
+    "time": "10:30",
+    "name": "Skup. cvičení vertebro",
+    "place": "Polárka",
+    "staff": "Mgr. Vardanyan Zaruhi",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-11",
+    "time": "11:30",
+    "name": "Treadmill",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-12",
+    "time": "10:00",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-14",
+    "time": "07:30",
+    "name": "Fyzioterapie",
+    "place": "Polárka",
+    "staff": "Mgr. Biolková, Bc. Vojvodíková",
+    "type": "fyzio",
+    "note": ""
+  },
+  {
+    "date": "2026-12-14",
+    "time": "08:30",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-14",
+    "time": "10:30",
+    "name": "Skup. cvičení vertebro",
+    "place": "Polárka",
+    "staff": "Mgr. Vardanyan Zaruhi",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-14",
+    "time": "14:15",
+    "name": "Redcord DKK",
+    "place": "Velká tělocvična",
+    "staff": "Dr. Storch",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-15",
+    "time": "08:30",
+    "name": "Posturomed",
+    "place": "Budova Lázně",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-15",
+    "time": "09:15",
+    "name": "Bazén Vertebro",
+    "place": "Bazén LARA",
+    "staff": "",
+    "type": "bazen",
+    "note": ""
+  },
+  {
+    "date": "2026-12-15",
+    "time": "11:00",
+    "name": "Teplý zábal",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "zabal",
+    "note": ""
+  },
+  {
+    "date": "2026-12-15",
+    "time": "11:30",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-15",
+    "time": "13:15",
+    "name": "Balanční chodník",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "chodnik",
+    "note": ""
+  },
+  {
+    "date": "2026-12-16",
+    "time": "07:30",
+    "name": "Fyzioterapie",
+    "place": "Polárka",
+    "staff": "Mgr. Biolková, Bc. Vojvodíková",
+    "type": "fyzio",
+    "note": ""
+  },
+  {
+    "date": "2026-12-16",
+    "time": "08:30",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-16",
+    "time": "09:40",
+    "name": "Vizita",
+    "place": "na pokoji",
+    "staff": "",
+    "type": "vizita",
+    "note": ""
+  },
+  {
+    "date": "2026-12-16",
+    "time": "10:45",
+    "name": "Treadmill",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-16",
+    "time": "12:30",
+    "name": "Koupel perličková",
+    "place": "Vodoléčba Polárka",
+    "staff": "",
+    "type": "koupel",
+    "note": ""
+  },
+  {
+    "date": "2026-12-17",
+    "time": "08:30",
+    "name": "Posturomed",
+    "place": "Budova Lázně",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-17",
+    "time": "09:15",
+    "name": "Bazén Vertebro",
+    "place": "Bazén LARA",
+    "staff": "",
+    "type": "bazen",
+    "note": ""
+  },
+  {
+    "date": "2026-12-17",
+    "time": "11:00",
+    "name": "Teplý zábal",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "zabal",
+    "note": ""
+  },
+  {
+    "date": "2026-12-17",
+    "time": "11:30",
+    "name": "TENS",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-17",
+    "time": "13:15",
+    "name": "Redcord DKK",
+    "place": "Velká tělocvična",
+    "staff": "Dr. Storch",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-18",
+    "time": "08:30",
+    "name": "Koupel perličková",
+    "place": "Vodoléčba Polárka",
+    "staff": "",
+    "type": "koupel",
+    "note": ""
+  },
+  {
+    "date": "2026-12-18",
+    "time": "09:30",
+    "name": "VAS-07",
+    "place": "Elektroléčba Polárka",
+    "staff": "",
+    "type": "elektro",
+    "note": ""
+  },
+  {
+    "date": "2026-12-18",
+    "time": "10:30",
+    "name": "Skup. cvičení vertebro",
+    "place": "Polárka",
+    "staff": "Mgr. Vardanyan Zaruhi",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-18",
+    "time": "11:15",
+    "name": "Treadmill",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "cviceni",
+    "note": ""
+  },
+  {
+    "date": "2026-12-18",
+    "time": "11:30",
+    "name": "Balanční chodník",
+    "place": "Budova Polárka",
+    "staff": "",
+    "type": "chodnik",
+    "note": ""
+  }
+]

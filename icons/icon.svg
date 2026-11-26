@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Lázeňský plán">
+  <rect width="512" height="512" rx="96" fill="#050505"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2">
+    <path d="M96 420h320"/>
+  </g>
+  <!-- Vader helmet silhouette -->
+  <path fill="#121212" stroke="#c41e2a" stroke-width="8" stroke-linejoin="round"
+        d="M256 72c-78 0-142 48-162 118-12 42-8 92 6 138 10 34 8 62-10 86 28 10 72 22 166 22s138-12 166-22c-18-24-20-52-10-86 14-46 18-96 6-138C398 120 334 72 256 72z"/>
+  <path fill="#0a0a0a" d="M256 96c-62 0-112 38-128 92-10 34-6 78 8 118 18 52 6 78-8 102 24 8 64 20 128 20s104-12 128-20c-14-24-26-50-8-102 14-40 18-84 8-118C368 134 318 96 256 96z"/>
+  <!-- visor -->
+  <path fill="#070707" stroke="#ff2a2a" stroke-width="6"
+        d="M148 230c38-28 72-40 108-40s70 12 108 40c-8 22-40 38-108 38s-100-16-108-38z"/>
+  <path fill="#ff2a2a" opacity="0.95"
+        d="M176 226c28-12 52-18 80-18s52 6 80 18c-22 10-48 16-80 16s-58-6-80-16z"/>
+  <!-- triangular mouth grill -->
+  <path fill="none" stroke="#c41e2a" stroke-width="5" stroke-linecap="round"
+        d="M210 330h92M222 348h68M236 366h40"/>
+  <path fill="none" stroke="#ff4d4d" stroke-width="4" opacity="0.8"
+        d="M256 292v86"/>
+  <!-- cheek vents -->
+  <path fill="none" stroke="#8a151c" stroke-width="4"
+        d="M168 300l-28 36M344 300l28 36"/>
+</svg>
