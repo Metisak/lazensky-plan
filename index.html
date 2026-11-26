@@ -26,7 +26,7 @@
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=4" />
   </head>
   <body>
     <div class="stars" aria-hidden="true"></div>
@@ -48,6 +48,21 @@
       <button type="button" class="today-btn" id="btn-today">Dnes</button>
     </div>
 
+    <section class="meals" aria-label="Časy jídel">
+      <div class="meal">
+        <span class="meal-name">Snídaně</span>
+        <span class="meal-time">7–8</span>
+      </div>
+      <div class="meal">
+        <span class="meal-name">Oběd</span>
+        <span class="meal-time">11:30–12</span>
+      </div>
+      <div class="meal">
+        <span class="meal-name">Večeře</span>
+        <span class="meal-time">17–17:30</span>
+      </div>
+    </section>
+
     <main class="view" id="view"></main>
 
     <div class="toast" id="toast" hidden>Your treatment awaits.</div>
@@ -67,6 +82,6 @@
       </button>
     </nav>
 
-    <script src="./app.js" defer></script>
+    <script src="./app.js?v=4" defer></script>
   </body>
 </html>

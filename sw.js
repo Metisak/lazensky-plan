@@ -1,14 +1,17 @@
 /**
- * Service worker — stale-while-revalidate.
- * Při změně shellu (HTML/CSS/JS/ikony) zvedněte CACHE_VERSION.
+ * Service worker — data (JSON, ikony) stale-while-revalidate,
+ * shell (HTML/CSS/JS) network-first, aby se aktualizace hned projevily.
+ * sw.js se necachuje.
  */
-const CACHE_VERSION = "lazne-v3";
+const CACHE_VERSION = "lazne-v4";
 
 const PRECACHE_URLS = [
   "./",
   "./index.html",
   "./styles.css",
+  "./styles.css?v=4",
   "./app.js",
+  "./app.js?v=4",
   "./manifest.json",
   "./data/procedures.json",
   "./icons/icon.svg",
@@ -47,8 +50,35 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  event.respondWith(staleWhileRevalidate(event.request));
+  if (url.pathname.endsWith("/sw.js")) {
+    event.respondWith(fetch(event.request));
+    return;
+  }
+
+  const isShell =
+    event.request.mode === "navigate" ||
+    url.pathname.endsWith("/") ||
+    url.pathname.endsWith(".html") ||
+    url.pathname.endsWith(".css") ||
+    url.pathname.endsWith(".js");
+
+  event.respondWith(
+    isShell ? networkFirst(event.request) : staleWhileRevalidate(event.request)
+  );
 });
+
+async function networkFirst(request) {
+  const cache = await caches.open(CACHE_VERSION);
+  try {
+    const response = await fetch(request);
+    if (response && response.ok) {
+      cache.put(request, response.clone());
+    }
+    return response;
+  } catch {
+    return cache.match(request);
+  }
+}
 
 async function staleWhileRevalidate(request) {
   const cache = await caches.open(CACHE_VERSION);
