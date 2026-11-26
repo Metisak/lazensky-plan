@@ -15,6 +15,12 @@ const EMPTY_LINES = [
 const DAY_FOOTER =
   "Choďte včas, nejlépe 5 min předem. Před procedurou vypněte mobil. Před bazénem se osprchujte. Do posilovny ve sportovní obuvi a oblečení.";
 
+const MEALS = [
+  { name: "Snídaně", time: "7–8" },
+  { name: "Oběd", time: "11:30–12" },
+  { name: "Večeře", time: "17–17:30" },
+];
+
 /** @typedef {"day" | "week" | "month"} ViewMode */
 
 /** @type {{ date: string, time: string, name: string, place: string, staff: string, type: string, note: string }[]} */
@@ -290,6 +296,17 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function mealsHtml() {
+  const items = MEALS.map(
+    (meal) => `
+      <div class="meal">
+        <span class="meal-name">${escapeHtml(meal.name)}</span>
+        <span class="meal-time">${escapeHtml(meal.time)}</span>
+      </div>`
+  ).join("");
+  return `<section class="meals" aria-label="Časy jídel">${items}</section>`;
+}
+
 function renderDay() {
   const { items, currentIndex, countdown } = dayStates(selectedDate);
   periodEl.textContent = formatDayHeading(selectedDate);
@@ -297,6 +314,7 @@ function renderDay() {
   if (items.length === 0) {
     const line = EMPTY_LINES[parseISO(selectedDate).getDate() % EMPTY_LINES.length];
     viewEl.innerHTML = `
+      ${mealsHtml()}
       <div class="empty">
         <p class="empty-lead">Síla odpočinku</p>
         <p>${escapeHtml(line)}</p>
@@ -335,7 +353,7 @@ function renderDay() {
     })
     .join("");
 
-  viewEl.innerHTML = `<div class="day-list">${cards}</div><p class="day-footer">${escapeHtml(DAY_FOOTER)}</p>`;
+  viewEl.innerHTML = `${mealsHtml()}<div class="day-list">${cards}</div><p class="day-footer">${escapeHtml(DAY_FOOTER)}</p>`;
 }
 
 function renderWeek() {

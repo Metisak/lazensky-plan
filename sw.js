@@ -2,7 +2,7 @@
  * Service worker — stale-while-revalidate.
  * Při změně shellu (HTML/CSS/JS/ikony) zvedněte CACHE_VERSION.
  */
-const CACHE_VERSION = "lazne-v2";
+const CACHE_VERSION = "lazne-v3";
 
 const PRECACHE_URLS = [
   "./",
